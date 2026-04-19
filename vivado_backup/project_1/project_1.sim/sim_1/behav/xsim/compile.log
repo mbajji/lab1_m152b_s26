@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/addition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addition
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/arithmetic_shift_L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_shift_L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/arithmetic_shift_R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arithmetic_shift_R
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/bitwise_and.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bitwise_and
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/bitwise_or.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bitwise_or
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/decrement.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decrement
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/increment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module increment
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/invert.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module invert
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/logical_shift_L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_shift_L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/logical_shift_R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module logical_shift_R
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/mux16_1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux16_1bit
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'S0' is not allowed [C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/mux16_1bit.v:36]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/mux16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux16bit
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'S0' is not allowed [C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/mux16bit.v:36]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/mux2_1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/mux2bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/mux4_1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4_1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/mux4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/set_on_less_than_or_equal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_on_less_than_or_equal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/subtraction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtraction
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mahes/Downloads/lab1_m152b-master/lab1_m152b-master/project_1/project_1.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb_module

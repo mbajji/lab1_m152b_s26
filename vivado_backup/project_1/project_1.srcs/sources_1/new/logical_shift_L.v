@@ -44,7 +44,10 @@ module logical_shift_L(
    */
    wire [15:0] c0, c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15;
    wire or_value;
-   assign or_value =  |B[15:4]; 
+   //assign or_value =  |B[15:4]; 
+   or g1(or_value, B[4], B[5], B[6], B[7], B[8], 
+                B[9], B[10], B[11], B[12], B[13], 
+                B[14], B[15]);
     //c0 is when b=0
      assign c0 = A;
      //c0 is when b=1
@@ -78,6 +81,10 @@ module logical_shift_L(
     );
     mux2bit u_2mux(.A(mux_output),.B(16'h0000),.S(or_value),.Q(S));
     assign overflow = 0;
-    assign zero = ~|S;
+    //assign zero = ~|S;
+    wire or_all;
+    or or_g1(or_all, S[0], S[1], S[2], S[3], S[4], S[5], S[6], S[7],
+          S[8], S[9], S[10], S[11], S[12], S[13], S[14], S[15]);
+    not or_g2(zero, or_all);
     
 endmodule

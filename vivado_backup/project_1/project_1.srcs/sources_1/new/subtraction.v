@@ -34,7 +34,7 @@ module subtraction(
     wire result_wrong;     
     
     invert invert_i(.S(S1), .A(B), .B(A), .overflow(o1), .zero(z1));
-    addition addition_a(.S(S), .A(A), .B(S1), .Cin(0), .overflow(carry_out), .zero(zero)); 
+    addition addition_a(.S(S), .A(A), .B(S1), .Cin(1'b0), .overflow(carry_out), .zero(zero)); 
     
     xor u_sign_check (sign_diff, A[15], B[15]);
     

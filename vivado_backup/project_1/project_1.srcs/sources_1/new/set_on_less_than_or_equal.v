@@ -41,7 +41,11 @@ module set_on_less_than_or_equal(
     mux2bit mux (.A(16'h0000), .B(16'h0001), .S(selection), .Q(S));
     
     assign overflow = 0;
-    assign zero = ~|S;
+    //assign zero = ~|S;
+    wire or_all;
+    or g1(or_all, S[0], S[1], S[2], S[3], S[4], S[5], S[6], S[7],
+          S[8], S[9], S[10], S[11], S[12], S[13], S[14], S[15]);
+    not g2(zero, or_all);
 
 
 endmodule
