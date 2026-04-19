@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/addition.v" \
+"../../../../project_1.srcs/sources_1/new/arithmetic_shift_L.v" \
+"../../../../project_1.srcs/sources_1/new/arithmetic_shift_R.v" \
+"../../../../project_1.srcs/sources_1/new/bitwise_and.v" \
+"../../../../project_1.srcs/sources_1/new/bitwise_or.v" \
+"../../../../project_1.srcs/sources_1/new/decrement.v" \
+"../../../../project_1.srcs/sources_1/new/full_adder.v" \
+"../../../../project_1.srcs/sources_1/new/increment.v" \
+"../../../../project_1.srcs/sources_1/new/invert.v" \
+"../../../../project_1.srcs/sources_1/new/logical_shift_L.v" \
+"../../../../project_1.srcs/sources_1/new/logical_shift_R.v" \
+"../../../../project_1.srcs/sources_1/new/mux16_1bit.v" \
+"../../../../project_1.srcs/sources_1/new/mux16bit.v" \
+"../../../../project_1.srcs/sources_1/new/mux2_1bit.v" \
+"../../../../project_1.srcs/sources_1/new/mux2bit.v" \
+"../../../../project_1.srcs/sources_1/new/mux4_1bit.v" \
+"../../../../project_1.srcs/sources_1/new/mux4bit.v" \
+"../../../../project_1.srcs/sources_1/new/set_on_less_than_or_equal.v" \
+"../../../../project_1.srcs/sources_1/new/subtraction.v" \
+"../../../../project_1.srcs/sources_1/new/top_module.v" \
+"../../../../project_1.srcs/sim_1/new/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
