@@ -66,9 +66,26 @@ module top_tb_module;
         B = 16'hffff;
         #10;
         
-         //overflow
+        
+        A = 16'h8000; 
+        B = 16'h7FFF;
+        #10;
+        
+        A = 16'h7fff; 
+        B = 16'h8000;
+        #10;
+        
+       
         A = 16'h0000; 
         B = 16'h0000;
+        #10
+        
+        
+        
+        
+        
+        
+        
         
          //add
          ALUCtrl = 4'b0001;
